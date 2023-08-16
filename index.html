@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="all">
+        <div class="big-box">
+            <!-- Logo -->
+            <img class="logo" src="Images/logo.png">
+            <!-- Logo -->
+            <div class="box">
+    
+                <!-- Top Box -->
+                <div class="top">
+                    <h1 class="title">Welcome Login</h1>
+                </div>
+    
+                <!-- Section - 1 -->
+                <form class="section" action="#">
+                    <label class="label">
+                        <input type="email" class="input" name="team" minlength="6" maxlength="32" required="required">
+                        <span class="top-tag">Email address</span>
+                    </label>
+                    <label class="label">
+                        <input type="password" class="input input2" minlength="6" minlength="32" name="team" required="required">
+                        <span class="top-tag">Password</span>
+                        <i class="tr fa-sharp fa-regular fa-eye"></i>
+                        <!-- <i class="tr fa-sharp fa-regular fa-eye-slash"></i> -->
+                    </label>
+                    <input type="submit" class="input" name="team" value="continue" required="required">
+                </form>
+    
+                <!-- Method -->
+                <div class="method-1">
+                    <p class="m-tag">Do you have an account? <span class="log">Sign up</span></p>
+                </div>
+    
+                 <!-- Or / More... -->
+                 <div class="more">
+                    <div class="line"></div>
+                    <p class="or">OR</p>
+                    <div class="line"></div>
+                </div>
+    
+                <!-- Section - 2 -->
+                <div class="section sc2">
+                    <div class="method">
+                        <img class="img" src="Images/google.png">
+                        <p class="mt-title">Continue with Google</p>
+                    </div>
+                    <div class="method">
+                        <img class="img" src="Images/microsoft.png">
+                        <p class="mt-title">Continue with Microsoft Account</p>
+                    </div>
+                    <div class="method">
+                        <img class="img" src="Images/apple.png">
+                        <p class="mt-title">Continue with Apple</p>
+                    </div>
+                </div>
+    
+                <div class="important">
+                    <a href="#" class="danger terms-of-use">Terms of Use</a>
+                    <p>|</p>
+                    <a href="#" class="danger privacy-policy">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
