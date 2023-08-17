@@ -119,6 +119,7 @@ span, a {
   cursor: pointer;
   opacity: 0;
   transition: all 0.3s linear;
+  overflow: hidden;
 }
 .big-box .box .section .top-tag {
   position: absolute;
@@ -219,6 +220,9 @@ span, a {
   }
   .big-box .box .input:nth-child(3) {
     font-size: 14px !important;
+  }
+  .big-box .box .input2 {
+    padding-right: 42px !important;
   }
   .big-box .box .m-tag {
     font-size: 10px;

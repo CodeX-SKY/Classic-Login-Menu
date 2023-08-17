@@ -184,6 +184,7 @@ $cl10: #6f7780;
                 cursor: pointer;
                 opacity: 0;
                 transition: all 0.3s linear;
+                overflow: hidden;
             }
             .top-tag {
                 position: absolute;
@@ -274,6 +275,9 @@ $cl10: #6f7780;
                 &:nth-child(3){
                     font-size: 14px !important;
                 }
+            }
+            .input2 {
+                padding-right: 42px !important;
             }
             .m-tag {
                 font-size: 10px;
